@@ -5,6 +5,18 @@
   <groupId>de.tuhrig</groupId>
   <artifactId>Flying_Saucer_PDF_Generation</artifactId>
   <version>0.1.0</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>7</source>
+          <target>7</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   <dependencies>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
